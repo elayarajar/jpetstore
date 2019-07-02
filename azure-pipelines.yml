@@ -27,11 +27,10 @@ steps:
 
 schedules:
 - cron: '*/5 * * * *'
-  displayName: Every 10 minutes
+  displayName: Every 5 minutes
   branches:
     include:
     - master
-    - releases/*
     exclude:
      - releases/ancient/*
   always: true
