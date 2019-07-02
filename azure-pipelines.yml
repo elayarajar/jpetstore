@@ -10,7 +10,6 @@ resources:
       name: elayarajar/jpetstore
       endpoint: github
 
-
 trigger:
 - master
 
@@ -27,8 +26,8 @@ steps:
   displayName: 'Run a multi-line script'
 
 schedules:
-- cron: '*/5 * * * *'
-  displayName: Every 5 minutes
+- cron: '*/2 * * * *'
+  displayName: Every 2 minutes
   branches:
     include:
     - master
