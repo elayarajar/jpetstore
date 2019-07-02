@@ -3,6 +3,13 @@
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
 
+resources:
+  repositories:
+    - repository: elayarajar
+      type: github
+      name: elayarajar/jpetstore
+
+
 trigger:
 - master
 
@@ -19,7 +26,7 @@ steps:
   displayName: 'Run a multi-line script'
 
 schedules:
-- cron: '*/10 * * * *'
+- cron: '*/5 * * * *'
   displayName: Every 10 minutes
   branches:
     include:
