@@ -8,6 +8,7 @@ resources:
     - repository: elayarajar
       type: github
       name: elayarajar/jpetstore
+      endpoint: github
 
 
 trigger:
