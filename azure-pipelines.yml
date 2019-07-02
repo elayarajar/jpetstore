@@ -7,7 +7,7 @@ resources:
   repositories:
     - repository: elayarajar
       type: github
-      name: elayarajar/jpetstore
+      name: https://github.com/elayarajar/jpetstore
       endpoint: github
 
 
