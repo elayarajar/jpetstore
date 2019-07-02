@@ -19,7 +19,7 @@ steps:
   displayName: 'Run a multi-line script'
 
 schedules:
-- cron: '*/2 * * * *'
+- cron: '*/10 * * * *'
   displayName: Every 10 minutes
   branches:
     include:
