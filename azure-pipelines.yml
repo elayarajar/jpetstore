@@ -33,6 +33,6 @@ schedules:
   branches:
     include:
     - master
-    exclude:
-     - releases/ancient/*
+#    exclude:
+#     - releases/ancient/*
   always: true
