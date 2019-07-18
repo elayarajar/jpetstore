@@ -3,12 +3,7 @@
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
 
-resources:
-  repositories:
-    - repository: elayarajar
-      type: github
-      name: elayarajar/jpetstore
-      endpoint: github
+
 
 trigger:
 - master
@@ -24,6 +19,13 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
+
+resources:
+  repositories:
+    - repository: elayarajar
+      type: github
+      name: elayarajar/jpetstore
+      endpoint: elayarajar
 
 schedules:
 - cron: '*/5 * * * *'
