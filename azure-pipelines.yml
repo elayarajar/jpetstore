@@ -22,11 +22,11 @@ steps:
 
 
 schedules:
-- cron: '*/5 * * * *'
+- cron: '*/2 * * * *'
   displayName: Every 5 minutes
   branches:
     include:
     - master
-#    exclude:
-#     - releases/ancient/*
+    exclude:
+     - releases/ancient/*
   always: true
