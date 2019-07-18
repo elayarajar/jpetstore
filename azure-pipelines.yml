@@ -3,12 +3,12 @@
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
 
-#resources:
-#  repositories:
-#    - repository: elayarajar
-#      type: github
-#      name: elayarajar/jpetstore
-#      endpoint: github
+resources:
+  repositories:
+    - repository: elayarajar
+      type: github
+      name: elayarajar/jpetstore
+      endpoint: github
 
 trigger:
 - master
