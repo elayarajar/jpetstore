@@ -20,12 +20,6 @@ steps:
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
 
-resources:
-  repositories:
-    - repository: elayarajar
-      type: github
-      name: elayarajar/jpetstore
-      endpoint: elayarajar
 
 schedules:
 - cron: '*/5 * * * *'
